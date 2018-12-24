@@ -6,4 +6,8 @@ class Show < ActiveRecord::Base
   def most_popular_show
     Show.max("rating")
   end
+
+  
 end
+
+
