@@ -23,4 +23,7 @@ class Show < ActiveRecord::Base
     self.where("rating > 5")
   end
 
+  def 
+  end
+
 end
