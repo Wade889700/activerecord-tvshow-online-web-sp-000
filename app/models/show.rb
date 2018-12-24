@@ -7,5 +7,8 @@ class Show < ActiveRecord::Base
     self.where(rating: highest_rating).first
   end
 
+  def 
+  end
+
 
 end
